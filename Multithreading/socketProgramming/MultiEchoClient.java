@@ -1,4 +1,4 @@
-package Multithreading.Threads;
+package Multithreading.socketProgramming;
 
 import java.io.IOException;
 import java.io.PrintWriter;
