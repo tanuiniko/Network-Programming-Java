@@ -5,5 +5,5 @@ They are retrieved by DatagramPackets on the other end.
 
 
 Datagram socket is always open once created.
-Two or more clients can connect at a time.
+The connection to the client is not maintained throughout the dialogue and hence it would appear that two clients are connected at a time but not.
 There is no order in receiving messages from the clients by the server, its open to all the clients.
