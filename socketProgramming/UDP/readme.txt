@@ -6,4 +6,4 @@ They are retrieved by DatagramPackets on the other end.
 
 Datagram socket is always open once created.
 The connection to the client is not maintained throughout the dialogue and hence it would appear that two clients are connected at a time but not.
-There is no order in receiving messages from the clients by the server, its open to all the clients.
+Meaning, client-1 opens and sends messages first, then client-2 opens and sends and now its perfectly possible for client-1 to send a message as the connection is always open and not closed. This justifies that udp sockets sends each datagram packets as an isolated transmission whenever necessary.
