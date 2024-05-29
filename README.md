@@ -53,8 +53,4 @@ There are two possible solutions:</p>
 </ui>
 
 ## Abstract
-<p>This project includes server programs that echo clients' messages back to them. As mentioned earlier, it is
-  possible to host both the server and client programs on the same machine, so this project contains code to host
-both on our local machines. It also contains programs to determine the host machines's IP address, to use TCP and
-  UDP sockets in both client and server programs, to implement threads, locking of variables, and to host a multithreaded 
-  server in Java.</p>
+<p>Created multi-threaded server applications for echoing client messages and retrieving host IP addresses using Java. Implemented TCP and UDP sockets with thread synchronization for concurrent processing.Improved server response efficiency by implementing optimized locking mechanisms.</p>
